@@ -61,7 +61,7 @@ export default class Presentation extends Component {
           <img src={newvk} alt="" style={{marginTop: -30}}/>
         </Slide>
         <Slide>
-          <h2 className="shout"><a href="http://lesscss.org/">LESS</a></h2>
+          <h2 className="shout"><a target="_blank" href="http://lesscss.org/">LESS</a></h2>
         </Slide>
         <Slide>
           <h2>Правила</h2>
@@ -195,7 +195,7 @@ export default class Presentation extends Component {
           </ol>
         </Slide>
         <Slide>
-          <h2 className="shout"><a href="https://facebook.github.io/fb-flo/">fb-flo</a></h2>
+          <h2 className="shout"><a target="_blank" href="https://facebook.github.io/fb-flo/">fb-flo</a></h2>
         </Slide>
         <Slide>
           <h2 className="shout smaller">Кэш :(</h2>
@@ -231,8 +231,10 @@ export default class Presentation extends Component {
             <li>VK: <a href="https://vk.com/bysoul">/id245216</a></li>
           </ul>
         </Slide>
-        <Slide>
-          <h2 className="shout">Вопросы?</h2>
+
+        <Slide className="center">
+          <h2 className="shout smaller"><a target="_blank" href="https://bit.ly/pitercss-vk">bit.ly/pitercss-vk</a></h2>
+          <h2>Вопросы?</h2>
         </Slide>
       </Deck>
       </div>
