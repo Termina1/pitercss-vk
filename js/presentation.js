@@ -220,6 +220,7 @@ export default class Presentation extends Component {
           <ol>
             <li>babel</li>
             <li>ES6 modules</li>
+            <li>Uglify</li>
           </ol>
         </Slide>
         <Slide>
