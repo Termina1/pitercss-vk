@@ -70,9 +70,11 @@
   max-height: 350px;
 }
 
-.sparse-item {
+.slide li.sparse-item {
   margin-top: 60px;
+  font-size: 24px;
 }
+
 
 .slide code {
   font-size: 22px;
@@ -89,10 +91,6 @@
 
 .slide li {
   font-size: 38px;
-}
-
-#app > div > div:last-of-type > div {
-  background: black !important;
 }
 
 h2.shout.smaller {

@@ -48,7 +48,7 @@ module.exports = function(options) {
   } else {
     // Entry
     entry = [
-      "webpack-dev-server/client?http://localhost:3100", // Needed for hot reloading
+      "webpack-dev-server/client?http://localhost:3000", // Needed for hot reloading
       "webpack/hot/only-dev-server", // See above
       path.resolve(__dirname, 'js/app.js') // Start with js/app.js...
     ];

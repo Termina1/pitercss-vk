@@ -12,8 +12,8 @@ function getTransformScale(props) {
     return 'scale(1)';
   }
   var denominator = Math.max(
-    768 / window.innerWidth,
-    768 / window.innerHeight
+    1024 / window.innerWidth,
+    640 / window.innerHeight
   );
 
   return 'scale(' + (1/denominator) + ')';

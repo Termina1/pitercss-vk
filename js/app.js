@@ -29,7 +29,7 @@ import NotFoundPage from './components/NotFound.react';
 import App from './components/App.react';
 
 // Import the CSS file, which HtmlWebpackPlugin transfers to the build folder
-import 'shower-ribbon/styles/screen-4x3.css';
+import 'shower-ribbon/styles/screen-16x10.css';
 import '../css/main.css';
 
 // Create the store with the redux-thunk middleware, which allows us
