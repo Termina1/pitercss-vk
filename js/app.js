@@ -19,6 +19,7 @@ import thunk from 'redux-thunk';
 import FontFaceObserver from 'fontfaceobserver';
 import { createHistory } from 'history';
 import DevTools from "./components/devtools";
+import persistState from 'redux-localstorage';
 
 // Observer loading of Open Sans (to remove open sans, remove the <link> tag in the index.html file and this observer)
 const openSansObserver = new FontFaceObserver('Open Sans', {});
@@ -44,6 +45,7 @@ const routes = <Router history={createHistory()}>
 
 const createStoreWithMiddleware = compose(
   DevTools.instrument(),
+  persistState(),
   applyMiddleware(thunk),
   reduxReactRouter({
     routes,
